@@ -11,10 +11,10 @@ const SearchTemplate = () => {
       action: (
         <div className="switch">
           <label>
-            Off
+            <i className="material-icons left ">event_note</i>
             <input type="checkbox" checked />
             <span className="lever"></span>
-            On
+            {/* On */}
           </label>
         </div>
       )
@@ -28,10 +28,11 @@ const SearchTemplate = () => {
       action: (
         <div className="switch">
           <label>
-            Off
+            {/* Off */}
+            <i className="material-icons left ">event_note</i>
             <input type="checkbox" checked />
             <span className="lever"></span>
-            On
+            {/* On */}
           </label>
         </div>
       )
@@ -49,6 +50,9 @@ const SearchTemplate = () => {
     e.preventDefault();
     let newData = [...data];
     // console.log(newData)
+    let bool = false;
+    if (status == "active") bool = true;
+
     let updateData = {
       templateId,
       templateName,
@@ -58,10 +62,11 @@ const SearchTemplate = () => {
       action: (
         <div className="switch">
           <label>
-            Off
+            {/* Off */}
+            <i className="material-icons left ">event_note</i>
             <input type="checkbox" />
-            <span className="lever checked"></span>
-            On
+            <span className="lever "></span>
+            {/* On */}
           </label>
         </div>
       )

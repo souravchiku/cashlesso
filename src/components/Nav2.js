@@ -10,16 +10,27 @@ export default function Nav2() {
             <a href="badges.html">LOYALITY MANAGEMENT</a>
           </li>
           <li>
-            <a href="collapsible.html">MANAGE USERS</a>
+            <a href="collapsible.html">
+              {" "}
+              <i className="material-icons left ">person_outline</i>MANAGE USERS
+            </a>
           </li>
           <li>
-            <a href="collapsible.html">MANAGE MEMBERS</a>
+            <a href="collapsible.html">
+              <i className="material-icons left ">group</i>MANAGE MEMBERS
+            </a>
           </li>
           <li>
-            <a href="collapsible.html">COUPON MANAGEMENT</a>
+            <a href="collapsible.html">
+              <i className="material-icons left ">transfer_within_a_station</i>
+              COUPON MANAGEMENT
+            </a>
           </li>
-          <li>
-            <a href="collapsible.html">CAMPAIGN MANAGEMENT</a>
+          <li style={{ borderBottom: "4px solid #ffd56b", color: "#21094e" }}>
+            <a style={{ color: "#21094e" }} href="collapsible.html">
+              <i className="material-icons left ">record_voice_over</i>CAMPAIGN
+              MANAGEMENT
+            </a>
           </li>
           <li>
             <a href="collapsible.html">OTHERS</a>

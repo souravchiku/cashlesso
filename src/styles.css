@@ -30,7 +30,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(9, auto);
+  /* grid-template-columns: repeat(9, auto); */
 }
 .nav2 {
   position: relative;
