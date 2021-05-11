@@ -1,0 +1,85 @@
+body {
+  color: grey;
+}
+
+.brand-logo {
+  padding: 80px 80px;
+  margin-right: 100px;
+}
+.nav-wrapper {
+  height: 50px;
+}
+.account {
+  height: 50px;
+  width: 180px;
+  position: relative;
+  bottom: 10px;
+  border-right: 1px solid black;
+}
+.brand-logo {
+  height: 40px;
+  width: 150px;
+}
+.logo {
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  height: 50px;
+  width: 125px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+}
+.nav2 {
+  position: relative;
+  bottom: 25px;
+}
+a {
+  color: grey !important;
+}
+.account {
+  color: white !important;
+}
+
+.side {
+  background: #21094e;
+  width: 240px;
+  height: 100vh;
+  margin: 0;
+}
+.content {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.contentItem {
+  color: grey;
+  text-align: center;
+  font-size: 15px;
+  margin: 5px;
+  /* border: 1px solid black; */
+  padding: 8px;
+}
+.tt {
+  color: grey;
+}
+
+.search {
+  display: inline;
+  border: 1px solid black;
+  height: 500px;
+  width: 1000px;
+  background-color: #f5f5f5;
+  /* float:left; */
+  position: relative;
+  left: 280px;
+  bottom: 245px;
+  right: 300px;
+}
+
+.input {
+  border-block-end-style: none;
+}
