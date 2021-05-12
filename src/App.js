@@ -22,7 +22,7 @@ export default function App() {
         <Nav />
         <Nav2 />
         <Route exact path="/">
-          <Home />
+          <Sidenav />
         </Route>
         <Route path="/config">
           <Configuration />

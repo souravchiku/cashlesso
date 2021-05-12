@@ -26,7 +26,6 @@ const Sidenav = () => {
             Campaigns{" "}
           </div>
         </div>
-        <Serach />
       </div>
     </>
   );
