@@ -1,45 +1,47 @@
+import { Link } from "react-router-dom";
+
 export default function Nav2() {
   return (
     <div>
       <nav className="left white nav2">
         <ul>
           <li grey>
-            <a href="sass.html ">CONFIGURATION</a>
+            <Link to="/config">CONFIGURATION</Link>
           </li>
           <li>
-            <a href="badges.html">LOYALITY MANAGEMENT</a>
+            <Link to="/loyality">LOYALITY MANAGEMENT</Link>
           </li>
           <li>
-            <a href="collapsible.html">
+            <Link to="/manageuser">
               {" "}
               <i className="material-icons left ">person_outline</i>MANAGE USERS
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="collapsible.html">
+            <Link to="/managemember">
               <i className="material-icons left ">group</i>MANAGE MEMBERS
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="collapsible.html">
+            <Link to="/coupon">
               <i className="material-icons left ">transfer_within_a_station</i>
               COUPON MANAGEMENT
-            </a>
+            </Link>
           </li>
           <li style={{ borderBottom: "4px solid #ffd56b", color: "#21094e" }}>
-            <a style={{ color: "#21094e" }} href="collapsible.html">
+            <Link style={{ color: "#21094e" }} to="/campaign">
               <i className="material-icons left ">record_voice_over</i>CAMPAIGN
               MANAGEMENT
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="collapsible.html">OTHERS</a>
+            <Link to="/others">OTHERS</Link>
           </li>
           <li>
-            <a href="collapsible.html">ADVISORY</a>
+            <Link to="/advisory">ADVISORY</Link>
           </li>
           <li>
-            <a href="collapsible.html">REPORTS</a>
+            <Link to="/reports">REPORTS</Link>
           </li>
         </ul>
       </nav>
