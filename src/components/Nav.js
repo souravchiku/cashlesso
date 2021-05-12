@@ -25,8 +25,6 @@ export default function Nav() {
           </ul>
         </div>
       </nav>
-      {/* <Nav2 /> */}
-      {/* <SerachTemplate /> */}
     </div>
   );
 }
